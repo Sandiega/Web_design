@@ -1,0 +1,250 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    background-color:#202328;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2%;
+    /* width: 100vw; */
+    height: 10vh;
+}
+#header p{
+    font-size: 1vw;
+}
+
+#footer p{
+    font-size: 0.8vw;
+}
+
+#logo{
+    width: 100%;
+}
+
+#logo img{
+    width: 3vw;
+}
+
+#header a{
+    text-decoration: none;
+}
+
+
+#container-login-register{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5%;
+    width: 50%;
+}
+
+#navigation-more{
+    width: 10%;
+    position: relative;
+    display: inline-block;
+}
+
+#navigation-more:hover #dropdown-navigation{
+    display: block;
+}
+
+
+#content{
+    padding:10%;
+    background-color: #d9d9d9;
+    height: 130vh;
+}
+
+
+
+
+.container-content{
+    padding: 0% 5%;
+    height: max-content;
+    width: 90%;
+    border: 0.1vw solid black;
+    background-color: white;
+}
+
+#tengah{
+    padding-top: 5%;
+}
+
+.gambar img{
+    width: 100%;
+}
+
+.gambar1 img{
+    width: 100%;
+}
+
+#exhib1 p{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#exhib2 p{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#exhib3 p{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#atas-kawasako p{
+    text-align: center;
+    font-size: 2vw;
+}
+
+#bawah-vixian p{
+    text-align: center;
+    font-size: 2vw;
+}
+
+#atas-kawasako{
+    padding-bottom: 3%;
+}
+
+#bawah-vixian{
+    padding-bottom: 3%;
+}
+
+
+
+.gambar1{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#satuan-atas{
+    display: flex;
+    gap: 2%;
+    padding-bottom: 2%;
+}
+
+#satuan-bawah{
+    display: flex;
+    padding-bottom: 5%;
+    gap: 2%;
+}
+
+
+.gambar{
+    display: flex;
+    padding-bottom: 5%;
+    gap: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    #satuan-atas{
+        text-align: center;
+        display: block;
+        
+    }
+
+    #satuan-bawah{
+        text-align: center;
+        display: block;
+    }
+
+    #satuan-atas img,#satuan-bawah img,.gambar img{
+        width: 37vw;
+    }
+
+    .gambar{
+        text-align: center;
+        display: block;
+    }
+}
+
+#navigation img{
+    width: 2vw;
+}
+#AboutUs a,#login-register a{
+    text-decoration: none;
+    color: white;
+}
+
+/* tambahan */
+
+#dropdown-products{
+    display: none;
+    top: 25%;
+    position: absolute;
+    background-color: #202328;
+    right: 8vw;
+}
+
+
+#products:hover #dropdown-products{
+    display: block;
+}
+
+/* tambahan */
+
+.dropdown-navbar:hover{
+    background-color: white;
+
+}
+
+.dropdown-navbar:hover p{
+    color: black;
+}
+
+#dropdown-navigation{
+    display: none;
+    position: absolute;
+    background-color: #202328;
+    right: 0%;
+}
+
+.dropdown-navbar p{
+    padding: 1vw 0vw;
+    right: 0vw;
+    width: 8vw;
+}
+
+.dropdown-navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#footer-kanan{
+    display: flex;
+    gap: 0.5rem;
+}
+
+#footer{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#202328;
+    height: 5vw;
+}
+
+#footer-kiri{
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+#footer-kiri img{
+    width: 4vw;
+    padding-right: 2%;
+}
+
+#footer-kanan img{
+    width: 2vw;
+}
