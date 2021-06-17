@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style_reserve.css">
+    <link rel="icon" href="./Assets/Logo_Project.png" type="image/icon type">                                  
+    <title>Y BIKE</title>
+</head>
+<body>
+        <div id="header">
+            <div id="logo">
+            <a href="Home.html"><img src="./Assets/Logo_Project.png" alt=""></a>
+            </div>
+            <div id="container-login-register">
+                <div id="login-register">
+                   <a href="Login.html"><p>Login</p></a> 
+                </div>
+                <div id="AboutUs">
+                   <a href="AboutUs.html"><p>About Us</p></a>
+                </div>
+                <div id="navigation-more">
+                    <div id="navigation">
+                        <img src="./Assets/garis3.png" alt="">
+                    </div>
+                    <div id="dropdown-navigation">
+                        <div class="dropdown-navbar">
+                            <a href="Home.html"><p>Home</p></a>
+                        </div>
+                        <div id="products">
+                        <div class="dropdown-navbar">
+                                <p>Products</p>
+                        </div>
+                            <div id="dropdown-products">
+                                <div class="dropdown-navbar">
+                                    <a href="Products1.html"><p>Kawasako</p></a>
+                                </div>
+                                <div class="dropdown-navbar">
+                                    <a href="Products2.html"><p>Vixian</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-navbar">
+                           <a href="Gallery.html"><p>Gallery</p></a>
+                        </div>
+                        <div class="dropdown-navbar">
+                            <a href="Reserve.html"><p>Reserve</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <div id="content">
+            <div id="contentform">
+                <div class="reserve" id="reserve">
+                </div>
+                <div class="form1">
+    
+                    <form action="">
+                        <div>
+                            
+                            <label for="name">Name :</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                       <div>
+                        
+                        <label for="email">Email :</label>
+                        <input type="email" name="email" id="email"> 
+                       </div>
+
+                
+                    <div>
+                        <label for="motor">Choose color:</label>
+    
+                        <select name="cars" id="motor" onchange="getSelectedValue()">
+                            <option value="nul">--Choose Color--</option>
+                           <option value="Black">Black</option>
+                           <option value="Red">Red</option>
+                           <option value="Green">Green</option>
+                           <option value="Yellow">Yellow</option>
+                       </select> 
+                       <br>
+                       
+                    </div>
+                    <div>
+                        <label for="choose">Choose motorcycle:</label>
+                        <select name="choose" id="choose" onchange="getSelectedValue()">
+                            <option value="nul">--Choose Motorcycle--</option>
+                            <option value="R-255">Kawasako R-255</option>
+                            <option value="K75">Kawasako K75</option>
+                            <option value="K-SE">Kawasako K-SE</option>
+                            <option value="G-12">Vixian G-12</option>
+                            <option value="BF-3">Vixian BF-3</option>
+                            <option value="SR-15">Vixian SR-15</option>
+                        </select> 
+                    </div>
+                    
+                    <div>
+                        <label for="qty">Quantity :</label>
+                        <input type="text" name="qty" id="qty">
+                    </div>
+                
+                    <div>
+                        
+                        <label for="">Address:</label>
+                        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree">Agree to term and conditions</label>
+                    </div>
+                    <button type="submit" onclick="validateData(event)"><p>Submit</p></button>
+                    <div id="error">
+
+                    </div>
+                    </form>
+            </div>
+            </div>
+   
+
+        </div>
+
+        <div id="footer">
+            <div id="footer-kiri">
+                <img src="./Assets/circle-cropped_2.png" alt="">
+                <p>2021 YBIKE</p>
+            </div>
+            <div id="footer-kanan">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./Assets/instagram.png" alt=""></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src="./Assets/twitter.png" alt=""></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./Assets/facebook.png" alt=""></a>
+
+            </div>
+
+        </div>
+        <script src="./Script2.js"></script> 
+</body>
+</html>

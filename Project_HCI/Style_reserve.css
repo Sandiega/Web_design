@@ -57,11 +57,13 @@
 
 
 #content{
-    padding-top: 3rem;
+    /* display: flex; */
+    /* padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%; */
     background-color: #d9d9d9;
     height: 100vh;
 }
-
 
 
 .text{
@@ -269,23 +271,8 @@ main{
 }
 
 .urutgambar img{
-    width: 20vw;
-}
-
-.gambar-motor{
-    text-align: center;
-}
-
-.gambar-motor p{
-    font-size: 1vw;
-}
-
-
-#type{
-    font-size: 2vw;
-    text-align: center;
-    padding-bottom: 1%;
-    color: white;
+    width: 25%;
+    height: 100%;
 }
 
 .deskripsi1{
@@ -312,21 +299,95 @@ main{
     padding-right: 5%;
 }
 
-@media screen and (max-width: 500px) {
-    .urutgambar {
-        display: block;
-    }
-
-    .gambar-motor{
-        padding-bottom: 2%;
-    }
-    .urutgambar img{
-        width: 60vw;
-    }
-    .gambar-motor p{
-        font-size: 3vw;
-    }
+.form1{
+    /* padding-left: 5%; */
+    /* display: flex; */
+    padding-top: 2%;
 }
+
+
+input{
+    border-radius: 0.2vw;
+    border: none;
+    width: 20vw;
+    box-sizing: border-box;
+}
+
+#qty{
+    width: 2%;
+    text-align: center;
+}
+
+#agree{
+    width: 1vw;
+    height: 1.5vh;
+}
+
+.form1 button{
+    width: 25vw;
+
+}
+
+.form1 label{
+    font-size: 1vw;
+}
+
+.form1 p{
+    font-size: 1vw;
+}
+
+#address{
+    width: 15vw;
+}
+
+#motor{
+    width: 10vw;
+    font-size: 0.8vw;
+}
+#choose{
+    width: 10vw;
+    font-size: 0.8vw;
+}
+
+
+form{
+    text-align: center;
+}
+#reserve{
+    height: 30vh;
+    width: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: url(./Assets/kawasako1.png); */
+}
+
+#contentform{
+    /* padding-left: 40%; */
+    padding-top: 5%;
+    justify-content: center;
+}
+
+
+#count{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: underline;
+}
+
+
+
+
+#error{
+    color: red;
+}
+/* .reserve img{
+    display: none;
+} */
+
+/* .reserve img.current-img{
+    display: inline-block;
+} */
 
 #footer-kanan{
     display: flex;

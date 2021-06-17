@@ -56,9 +56,10 @@
 
 #content{
     padding:10%;
-    background-color: gray;
+    background-color: #d9d9d9;
     height: 130vh;
 }
+
 
 
 
@@ -135,10 +136,33 @@
     gap: 2%;
 }
 
+
 .gambar{
     display: flex;
     padding-bottom: 5%;
     gap: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    #satuan-atas{
+        text-align: center;
+        display: block;
+        
+    }
+
+    #satuan-bawah{
+        text-align: center;
+        display: block;
+    }
+
+    #satuan-atas img,#satuan-bawah img,.gambar img{
+        width: 37vw;
+    }
+
+    .gambar{
+        text-align: center;
+        display: block;
+    }
 }
 
 #navigation img{
@@ -153,7 +177,7 @@
 
 #dropdown-products{
     display: none;
-    top: 9.5vh;
+    top: 25%;
     position: absolute;
     background-color: #202328;
     right: 8vw;

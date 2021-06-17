@@ -57,9 +57,10 @@
 
 #content{
     padding-top: 3rem;
-    background-color: gray;
+    background-color: #d9d9d9;
     height: 100vh;
 }
+
 
 
 .text{
@@ -89,12 +90,11 @@
 
 #dropdown-products{
     display: none;
-    top: 9.5vh;
+    top: 25%;
     position: absolute;
     background-color: #202328;
     right: 8vw;
 }
-
 
 #products:hover #dropdown-products{
     display: block;
@@ -267,10 +267,42 @@ main{
     align-items: center;
 }
 
-.urutgambar img{
-    width: 25%;
-    height: 100%;
+.gambar-motor{
+    text-align: center;
 }
+
+.gambar-motor p{
+    font-size: 1vw;
+}
+
+#type{
+    font-size: 2vw;
+    text-align: center;
+    padding-bottom: 1%;
+    color: white;
+}
+
+
+.urutgambar img{
+    width: 20vw;
+}
+
+@media screen and (max-width: 500px) {
+    .urutgambar {
+        display: block;
+    }
+
+    .gambar-motor{
+        padding-bottom: 2%;
+    }
+    .urutgambar img{
+        width: 60vw;
+    }
+    .gambar-motor p{
+        font-size: 3vw;
+    }
+}
+
 
 .deskripsi1{
     color: white;
